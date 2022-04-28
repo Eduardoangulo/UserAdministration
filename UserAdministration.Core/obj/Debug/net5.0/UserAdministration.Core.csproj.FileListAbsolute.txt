@@ -2,6 +2,7 @@ C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministrati
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Core\bin\Debug\net5.0\UserAdministration.Core.dll
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Core\bin\Debug\net5.0\ref\UserAdministration.Core.dll
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Core\bin\Debug\net5.0\UserAdministration.Core.pdb
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Core\obj\Debug\net5.0\UserAdministration.Core.csprojAssemblyReference.cache
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Core\obj\Debug\net5.0\UserAdministration.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Core\obj\Debug\net5.0\UserAdministration.Core.AssemblyInfoInputs.cache
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Core\obj\Debug\net5.0\UserAdministration.Core.AssemblyInfo.cs
