@@ -1,10 +1,8 @@
-
-FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
-WORKDIR /app
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+ENV ASPNETCORE_URLS=http://+:80
 EXPOSE 80
 EXPOSE 5024
 
-FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY ["UserAdministration/UserAdministration.csproj", "UserAdministration/"]
 COPY ["UserAdministration.Infrastructure/UserAdministration.Infrastructure.csproj", "UserAdministration.Infrastructure/"]
@@ -14,12 +12,12 @@ COPY ["UserAdministration.Application.DTO/UserAdministration.Application.DTO.csp
 RUN dotnet restore "UserAdministration/UserAdministration.csproj"
 COPY . .
 WORKDIR "/src/UserAdministration"
-RUN dotnet build "UserAdministration.csproj" -c Release -o /app/build
+RUN dotnet build "UserAdministration.csproj" -c Release -o /build
 
 FROM build AS publish
-RUN dotnet publish "UserAdministration.csproj" -c Release -o /app/publish
+RUN dotnet publish "UserAdministration.csproj" -c Release -o /publish
 
-FROM base AS final
+FROM mcr.microsoft.com/dotnet/sdk:5.0
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=publish /publish .
 ENTRYPOINT ["dotnet", "UserAdministration.dll"]
