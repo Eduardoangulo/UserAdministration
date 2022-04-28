@@ -74,3 +74,4 @@ C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministrati
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\obj\Release\net5.0\ref\UserAdministration.dll
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\obj\Release\net5.0\UserAdministration.pdb
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\obj\Release\net5.0\UserAdministration.genruntimeconfig.cache
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\bin\Release\net5.0\nunit.framework.dll
