@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ud++o4orWBN603r9i2T5Q9ty80Tp3EbB1lQxfXnjudYd7KW963A2qGyRRmvW3H772EoO/WTirnor9E0w1o4hJg==",
+  "dgSpecHash": "16a2BLsnsSCyoffZ86oT5ofqo8DMfJG8Cox7/uUuEBOX/OH0TQ6jw+iJHjszZ/cPoMCDsZV16rMCJO6E0HkOhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Testing\\UserAdministration.Testing.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\eduardo.angulo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\eduardo.angulo\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.7.1\\microsoft.testplatform.objectmodel.16.7.1.nupkg.sha512",
     "C:\\Users\\eduardo.angulo\\.nuget\\packages\\microsoft.testplatform.testhost\\16.7.1\\microsoft.testplatform.testhost.16.7.1.nupkg.sha512",
+    "C:\\Users\\eduardo.angulo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\eduardo.angulo\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\eduardo.angulo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\eduardo.angulo\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
