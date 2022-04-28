@@ -57,7 +57,7 @@ namespace UserAdministration.Infrastructure.Repository
                                     State = RowStates.AvailableState
                                 };
                                 sql = "INSERT into user_role (id_user, id_role, creation, state) VALUES (@IdUser,@IdRole,@Creation,@State)";
-                                result = connection.Execute(sql, entityUserRole);
+                                result = connection.Execute(sql, new { IdUser = entityUserRole.Id_user, IdRole = entityUserRole.Id_role, entityUserRole.Creation, entityUserRole.State});
                             }
                         }
                         connection.Execute("COMMIT;");
