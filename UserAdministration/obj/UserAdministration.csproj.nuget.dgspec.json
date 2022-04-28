@@ -1,0 +1,367 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration\\UserAdministration.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application.DTO\\UserAdministration.Application.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application.DTO\\UserAdministration.Application.DTO.csproj",
+        "projectName": "UserAdministration.Application.DTO",
+        "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application.DTO\\UserAdministration.Application.DTO.csproj",
+        "packagesPath": "C:\\Users\\eduardo.angulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduardo.angulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application\\UserAdministration.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application\\UserAdministration.Application.csproj",
+        "projectName": "UserAdministration.Application",
+        "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application\\UserAdministration.Application.csproj",
+        "packagesPath": "C:\\Users\\eduardo.angulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduardo.angulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application.DTO\\UserAdministration.Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application.DTO\\UserAdministration.Application.DTO.csproj"
+              },
+              "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Core\\UserAdministration.Core.csproj": {
+                "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Core\\UserAdministration.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Core\\UserAdministration.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Core\\UserAdministration.Core.csproj",
+        "projectName": "UserAdministration.Core",
+        "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Core\\UserAdministration.Core.csproj",
+        "packagesPath": "C:\\Users\\eduardo.angulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduardo.angulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Infrastructure\\UserAdministration.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Infrastructure\\UserAdministration.Infrastructure.csproj",
+        "projectName": "UserAdministration.Infrastructure",
+        "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Infrastructure\\UserAdministration.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\eduardo.angulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduardo.angulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application\\UserAdministration.Application.csproj": {
+                "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application\\UserAdministration.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Dapper.SimpleCRUD": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Dapper.SqlBuilder": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Build.Tasks.Core": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration\\UserAdministration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration\\UserAdministration.csproj",
+        "projectName": "UserAdministration",
+        "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration\\UserAdministration.csproj",
+        "packagesPath": "C:\\Users\\eduardo.angulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduardo.angulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application\\UserAdministration.Application.csproj": {
+                "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Application\\UserAdministration.Application.csproj"
+              },
+              "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Infrastructure\\UserAdministration.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\eduardo.angulo\\Desktop\\Repositories\\UserAdministration\\UserAdministration.Infrastructure\\UserAdministration.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
