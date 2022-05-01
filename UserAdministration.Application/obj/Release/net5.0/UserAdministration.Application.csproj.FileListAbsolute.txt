@@ -1,0 +1,17 @@
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\bin\Release\net5.0\UserAdministration.Application.deps.json
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\bin\Release\net5.0\UserAdministration.Application.dll
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\bin\Release\net5.0\ref\UserAdministration.Application.dll
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\bin\Release\net5.0\UserAdministration.Application.pdb
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\bin\Release\net5.0\UserAdministration.Application.DTO.dll
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\bin\Release\net5.0\UserAdministration.Core.dll
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\bin\Release\net5.0\UserAdministration.Application.DTO.pdb
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\bin\Release\net5.0\UserAdministration.Core.pdb
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\obj\Release\net5.0\UserAdministration.Application.csprojAssemblyReference.cache
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\obj\Release\net5.0\UserAdministration.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\obj\Release\net5.0\UserAdministration.Application.AssemblyInfoInputs.cache
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\obj\Release\net5.0\UserAdministration.Application.AssemblyInfo.cs
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\obj\Release\net5.0\UserAdministration.Application.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\obj\Release\net5.0\UserAdministration.Application.csproj.CopyComplete
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\obj\Release\net5.0\UserAdministration.Application.dll
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\obj\Release\net5.0\ref\UserAdministration.Application.dll
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration.Application\obj\Release\net5.0\UserAdministration.Application.pdb

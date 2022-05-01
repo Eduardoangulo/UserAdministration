@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UserAdministration.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "UserAdministration.Application.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserAdministration.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserAdministration.Application.dll": {}
+        }
+      },
+      "UserAdministration.Application.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "UserAdministration.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserAdministration.Application.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserAdministration.Application.DTO.dll": {}
+        }
+      },
+      "UserAdministration.Application.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "UserAdministration.Application.DTO": "1.0.0",
+          "UserAdministration.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserAdministration.Application.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserAdministration.Application.Interface.dll": {}
+        }
+      },
+      "UserAdministration.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/UserAdministration.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserAdministration.Domain.dll": {}
+        }
+      },
+      "UserAdministration.Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "UserAdministration.Application.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserAdministration.Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserAdministration.Infraestructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserAdministration.Application/1.0.0": {
+      "type": "project",
+      "path": "../UserAdministration.Application/UserAdministration.Application.csproj",
+      "msbuildProject": "../UserAdministration.Application/UserAdministration.Application.csproj"
+    },
+    "UserAdministration.Application.DTO/1.0.0": {
+      "type": "project",
+      "path": "../UserAdministration.Application.DTO/UserAdministration.Application.DTO.csproj",
+      "msbuildProject": "../UserAdministration.Application.DTO/UserAdministration.Application.DTO.csproj"
+    },
+    "UserAdministration.Application.Interface/1.0.0": {
+      "type": "project",
+      "path": "../UserAdministration.Application.Interface/UserAdministration.Application.Interface.csproj",
+      "msbuildProject": "../UserAdministration.Application.Interface/UserAdministration.Application.Interface.csproj"
+    },
+    "UserAdministration.Domain/1.0.0": {
+      "type": "project",
+      "path": "../UserAdministration.Domain/UserAdministration.Domain.csproj",
+      "msbuildProject": "../UserAdministration.Domain/UserAdministration.Domain.csproj"
+    },
+    "UserAdministration.Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../UserAdministration.Infraestructure/UserAdministration.Infraestructure.csproj",
+      "msbuildProject": "../UserAdministration.Infraestructure/UserAdministration.Infraestructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "UserAdministration.Application >= 1.0.0",
+      "UserAdministration.Application.Interface >= 1.0.0",
+      "UserAdministration.Infraestructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/eduardoanguloluna/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/eduardoanguloluna/Documents/Software Projects/UserAdministration/UserAdministration.API/UserAdministration.API.csproj",
+      "projectName": "UserAdministration.API",
+      "projectPath": "/Users/eduardoanguloluna/Documents/Software Projects/UserAdministration/UserAdministration.API/UserAdministration.API.csproj",
+      "packagesPath": "/Users/eduardoanguloluna/.nuget/packages/",
+      "outputPath": "/Users/eduardoanguloluna/Documents/Software Projects/UserAdministration/UserAdministration.API/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/eduardoanguloluna/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "/Users/eduardoanguloluna/Documents/Software Projects/UserAdministration/UserAdministration.Application.Interface/UserAdministration.Application.Interface.csproj": {
+              "projectPath": "/Users/eduardoanguloluna/Documents/Software Projects/UserAdministration/UserAdministration.Application.Interface/UserAdministration.Application.Interface.csproj"
+            },
+            "/Users/eduardoanguloluna/Documents/Software Projects/UserAdministration/UserAdministration.Application/UserAdministration.Application.csproj": {
+              "projectPath": "/Users/eduardoanguloluna/Documents/Software Projects/UserAdministration/UserAdministration.Application/UserAdministration.Application.csproj"
+            },
+            "/Users/eduardoanguloluna/Documents/Software Projects/UserAdministration/UserAdministration.Infraestructure/UserAdministration.Infraestructure.csproj": {
+              "projectPath": "/Users/eduardoanguloluna/Documents/Software Projects/UserAdministration/UserAdministration.Infraestructure/UserAdministration.Infraestructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

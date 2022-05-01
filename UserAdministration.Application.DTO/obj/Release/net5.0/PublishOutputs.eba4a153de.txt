@@ -1,0 +1,3 @@
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\out\UserAdministration.Application.DTO.dll
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\out\UserAdministration.Application.DTO.deps.json
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\out\UserAdministration.Application.DTO.pdb
