@@ -1,4 +1,5 @@
-﻿using UserAdministration.Application.DTO;
+﻿using System.Collections.Generic;
+using UserAdministration.Application.DTO;
 
 namespace UserAdministration.Application.Interfaces
 {
@@ -7,5 +8,6 @@ namespace UserAdministration.Application.Interfaces
         UserResponse Add(UserRequest user);
         UserResponse Update(UserUpdateRequest user);
         UserResponse Delete(UserUpdateRequest user);
+        List<UsersTotalResponse> GetUsersAvailable();
     }
 }

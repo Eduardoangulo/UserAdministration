@@ -51,14 +51,14 @@ namespace UserAdministration.Application
                     });
                 }
 
-                return new UserResponse{ Id = _userRepository.Add(userEntity) };
+                return new UserResponse { Id = _userRepository.Add(userEntity) };
             }
             catch (Exception e)
             {
                 HttpResponseException ex = new HttpResponseException
                 {
                     Value = e.Message,
-                    Status = (int)HttpStatusCode.InternalServerError
+                    Status = (int)HttpStatusCode.BadRequest
                 };
                 throw ex;
             }
@@ -99,7 +99,7 @@ namespace UserAdministration.Application
                 HttpResponseException ex = new HttpResponseException
                 {
                     Value = e.Message,
-                    Status = (int)HttpStatusCode.InternalServerError
+                    Status = (int)HttpStatusCode.BadRequest
                 };
                 throw ex;
             }
@@ -125,7 +125,38 @@ namespace UserAdministration.Application
                 HttpResponseException ex = new HttpResponseException
                 {
                     Value = e.Message,
-                    Status = (int)HttpStatusCode.InternalServerError
+                    Status = (int)HttpStatusCode.BadRequest
+                };
+                throw ex;
+            }
+        }
+        public List<UsersTotalResponse> GetUsersAvailable()
+        {
+            try
+            {
+                List<UsersTotalResponse> listTotal = new List<UsersTotalResponse>();
+                var resultList = _userRepository.GetUsersAvailable(RowStates.NotAvailableState);
+                foreach(User user in resultList)
+                {
+                    listTotal.Add(new UsersTotalResponse
+                    {
+                        Username = user.Username,
+                        Id = user.Id,
+                        Password = user.Password,
+                        Email = user.Email,
+                        Creation = user.Creation,
+                        Modification = user.Modification,
+                        State = user.State
+                    });
+                }
+                return listTotal;
+            }
+            catch (Exception e)
+            {
+                HttpResponseException ex = new HttpResponseException
+                {
+                    Value = e.Message,
+                    Status = (int)HttpStatusCode.BadRequest
                 };
                 throw ex;
             }
