@@ -10,6 +10,9 @@ namespace UserAdministration.Application.Interfaces
         int Add(T entity);
         int Update(T entity);
         int DeleteUser(T entity);
+
+        List<T> GetUsersAvailable(string state);
+
         //Task<int> UpdateAsync(T entity);
         //Task<int> DeleteAsync(int id);
     }

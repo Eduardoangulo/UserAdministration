@@ -31,6 +31,7 @@ C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministrati
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\bin\Debug\net5.0\MySqlConnector.dll
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\bin\Debug\net5.0\nunit.framework.dll
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\eduardo.angulo\Desktop\Repositories\UserAdministration\UserAdministration\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll

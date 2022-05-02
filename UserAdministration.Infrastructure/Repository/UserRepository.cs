@@ -223,5 +223,16 @@ namespace UserAdministration.Infrastructure.Repository
                 return result.ToList();
             }
         }
+
+        public List<User> GetUsersAvailable(string state)
+        {
+            var sql = "SELECT * FROM Users WHERE state = @State";
+            using (var connection = new MySqlConnection(configuration.GetConnectionString("DefaultConnection")))
+            {
+                connection.Open();
+                var result = connection.Query<User>(sql, new { State = RowStates.AvailableState });
+                return result.ToList();
+            }
+        }
     }
 }
